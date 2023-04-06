@@ -14,50 +14,29 @@
 
         <EditText
             android:enabled="false"
-            android:id="@+id/leftEditText"
+            android:id="@+id/n2dLayoutText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="Edit text"
             android:inputType="textPersonName" />
-
-        <EditText
-            android:enabled="false"
-            android:id="@+id/rightEditText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:hint="Edit text"
-            android:inputType="textPersonName"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/activity2_ok_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Increase"/>
+            android:text="ok"/>
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/activity2_cancel_button"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Increase"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/navigate_to_secondary_activity_button"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Navigate to next"/>
+            android:text="cancel"/>
 
     </LinearLayout>
 </LinearLayout>
